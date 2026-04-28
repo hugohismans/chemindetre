@@ -1,0 +1,230 @@
+{
+  "formation_bulle": {
+    "active": true,
+    "texte": "Prochaine formation · 22 avril",
+    "lien": "https://calendly.com/hugo-hismans"
+  },
+  "hero": {
+    "eyebrow": "Massage · Thérapie · Aquareliste",
+    "title_html": "Un espace pour<br /><em>se retrouver</em>",
+    "subtitle": "Je vous accompagne vers un mieux-être profond, à travers le toucher, l'écoute et la créativité.",
+    "cta_primary": "Prendre rendez-vous",
+    "cta_secondary": "Découvrir mes prestations"
+  },
+  "about": {
+    "photo": "MichelPhoto.png",
+    "eyebrow": "À propos",
+    "title": "Michel Vrins",
+    "lead": "Notre bonheur est chemin.",
+    "paragraphs": [
+      "Chemin d'Être offre des voies pour renouer au Soi dans sa meilleure qualité. La reconnaissance, la paix intérieure, la douceur du regard en miroir, en partage. Le plaisir au donner, au recevoir. Comprendre les mécanismes des échanges, se dégager des messages contraignants, se nourrir de permissions qui valorisent le Moi sorti des blessures et l'Autre choisi tel qu'il est. La méditation en nature, en balade, seul·e ou à quelques un·e·s.",
+      "Chemin d'Être ouvre une porte ornée de formes et de couleurs : crayons, pinceaux, quelques pas posés dans la verdure et le patrimoine, un projet d'espace et de rencontres… Dans le silence, la joie consciente de nos chances quotidiennes et gagner en puissance."
+    ],
+    "merci": "Merci à celles et ceux qui m'ont conduit sur ce domaine : elles, ils se reconnaîtront."
+  },
+  "services": {
+    "eyebrow": "Prestations",
+    "title": "Ce que je propose",
+    "intro": "Chaque soin est adapté à vos besoins et à votre rythme.",
+    "items": [
+      {
+        "id": "massage",
+        "image": "massageCalifornien.jpg",
+        "title": "Massage Californien",
+        "description": "Un massage enveloppant et profondément relaxant, aux longs mouvements fluides, qui invite le corps et l'esprit à lâcher prise. Idéal pour libérer les tensions et retrouver une sérénité durable.",
+        "tarif": "60 € / séance",
+        "modal": {
+          "vignette": "vignetteMassage.png",
+          "title": "Massage Californien",
+          "subtitle": "Toucher du cœur",
+          "paragraphs_html": [
+            "Le Massage Californien est apparu au début des années 1970, à l'époque de l'émergence des groupes de thérapie où primaient le développement du potentiel humain, l'expression des sentiments et les liens corps-esprit, les travaux de W. Reich sur la circulation d'énergie.",
+            "Le centre de croissance Esalen (San Francisco) rassemblait alors de nombreux chercheurs qui contribuèrent à ce <strong>courant de pensée</strong>. Diverses formes de thérapies et plusieurs techniques corporelles y sont nées.",
+            "Dans ce contexte <em>New Age</em>, le Massage Californien a été initié par Margaret Elke. Elle s'est inspirée de la douceur du massage Esalen qu'elle a combiné avec une démarche plus intérieure et émotive. Elle a codifié, structuré et enseigné la technique aux États-Unis ; la pratique s'est peu à peu développée et professionnalisée, avant de s'étendre au monde entier dans les années 1980.",
+            "Au départ du massage suédois, le Massage Californien est une <strong>approche globale</strong> qui vise autant la <strong>détente</strong> que l'éveil et la stimulation de la <strong>conscience psychocorporelle</strong>. Il permet un rééquilibrage énergétique du corps, une profonde relaxation physique et psychique par la pratique de longs mouvements lents et fluides qui valorisent l'enveloppe corporelle et l'identité personnelle dans le relâchement profond du corps et de l'esprit.",
+            "Ce massage aide à libérer des émotions enfouies dans la mémoire corporelle : plus le massé parvient au lâcher prise et à profiter des bienfaits du contact, plus il s'ouvre au « toucher du cœur », terme utilisé dans le cadre de cette pratique.",
+            "Véritable voyage intérieur, le massage invite le patient à découvrir son corps, à l'aimer et à l'unifier. Il permet de retrouver la richesse sensorielle inscrite dans le corps et de renouer avec les signaux que celui-ci envoie. L'effet est donc physique et psychologique puisqu'il améliore la perception du schéma corporel, l'écoute et l'estime de soi, et favorise l'épanouissement, une meilleure structuration de la personnalité.",
+            "Il régénère la mémoire corporelle et aide les personnes ayant vécu un traumatisme et/ou qui suivent une démarche psychothérapeutique. À l'issue de la séance, le patient se sent potentiellement régénéré.",
+            "<strong>Ce massage est basé sur une réception inconditionnelle où tout se joue dans le moment présent.</strong>"
+          ],
+          "images_extra": ["massageCalifornien.jpg", "futonMassage.jpg"],
+          "paragraphs_after_html": [
+            "Formé par Solange Brasseur, je pratique le Massage Californien depuis plus de trente ans.",
+            "Depuis 2012, je donne des formations dans la ligne originelle de Margaret Elke, conceptrice de ce massage. Dans un cadre bienveillant, ces ateliers sont composés d'applications au toucher respectueux, la mise en place, la démonstration des gestes sur modèle et le suivi de pratique. Le participant reçoit un syllabus illustré et la certification."
+          ],
+          "ateliers_intro": "Je propose différents formats d'ateliers :",
+          "ateliers_liste": [
+            "Les formations",
+            "Les Journées Partage",
+            "Les Journées à thème",
+            "Les supervisions"
+          ],
+          "tarif_html": "Pour le découvrir et le vivre, ce massage peut être donné en individuel : <a href=\"#rdv\" class=\"modal-link\">prendre rendez-vous</a>.<br /><strong>Tarif : 60 €</strong> — sur table ou futon. Déplacement possible.",
+          "pdf_url": "MasCal_presentation.pdf",
+          "pdf_label": "Télécharger la fiche complète (PDF)"
+        }
+      },
+      {
+        "id": "at",
+        "image": "AT-Vignette.png",
+        "title": "Analyse Transactionnelle",
+        "description": "Une approche thérapeutique qui permet de mieux comprendre ses schémas relationnels et émotionnels. L'AT offre des outils concrets pour évoluer dans ses relations et dans sa vie intérieure.",
+        "tarif": "",
+        "modal": {
+          "vignette": "AT-Vignette.png",
+          "title": "Analyse Transactionnelle",
+          "subtitle": "",
+          "paragraphs_html": [
+            "Dans nos relations, à l'autre comme à soi, la communication se fait souvent chaotique — d'impressions inconfortables, d'images mal perçues, de perte de sens… Cela semble se produire sans prise réelle à ce qui se passe sur l'instant. Un sentiment d'impuissance s'installe, qui sème le doute.",
+            "Les ateliers proposent de délier ces nœuds, à travers des mises en situation que les participants peuvent évoquer, avec la volonté de se comprendre en bienveillance.",
+            "L'approche se veut <strong>théorique et pratique</strong>. Elle est adaptée aux personnels éducatifs, infirmiers, assistants sociaux… et à toute personne qui souhaite s'ouvrir aux permissions d'être, longtemps refoulées."
+          ],
+          "tarif_html": "<p><strong>Ateliers</strong> sur Bruxelles, Louvain-la-Neuve, Namur — <strong>70 € / journée</strong></p><p><strong>Séances individuelles</strong> — <strong>50 €</strong></p>",
+          "cta_text": "Prendre contact →",
+          "cta_link": "#contact"
+        }
+      },
+      {
+        "id": "jeunes",
+        "image": "sante_des_jeunes_lieux_d_ecoute_b75ebde659.jpg",
+        "title": "Écoute & Assistance aux jeunes",
+        "description": "Un accompagnement dédié aux adolescents et jeunes adultes en situation de fragilité. Dans un cadre bienveillant et confidentiel, je les aide à traverser les moments difficiles et à retrouver confiance.",
+        "tarif": "",
+        "modal": {
+          "vignette": "sante_des_jeunes_lieux_d_ecoute_b75ebde659.jpg",
+          "title": "Écoute & Assistance aux jeunes",
+          "subtitle": "",
+          "paragraphs_html": [
+            "L'adolescence et le début de l'âge adulte sont des périodes de transformation intense, parfois déstabilisantes. Incompréhension, isolement, perte de sens, difficultés scolaires ou familiales… ces épreuves méritent une attention bienveillante et sans jugement.",
+            "Dans un espace confidentiel et sécurisant, j'accompagne les jeunes en difficulté à mettre des mots sur ce qu'ils vivent, à identifier leurs ressources intérieures et à retrouver confiance en eux et en l'avenir.",
+            "Mon approche s'appuie sur l'écoute active, les outils de l'Analyse Transactionnelle et de la Gestalt, adaptés au rythme et à la réalité de chaque jeune. Il ne s'agit pas de donner des réponses toutes faites, mais d'accompagner chacun à trouver les siennes.",
+            "Cet accompagnement peut se faire en lien avec les parents ou les équipes éducatives, selon les besoins et avec l'accord du jeune."
+          ],
+          "tarif_html": "",
+          "cta_text": "",
+          "cta_link": ""
+        }
+      },
+      {
+        "id": "gestalt",
+        "image": "Gestalt Logo.png",
+        "title": "Gestalt",
+        "description": "Une thérapie centrée sur l'expérience du moment présent. La Gestalt favorise la prise de conscience de soi, de ses besoins et de ses blocages, pour mieux habiter sa vie.",
+        "tarif": "",
+        "modal": {
+          "vignette": "Gestalt Logo.png",
+          "title": "Gestalt",
+          "subtitle": "",
+          "paragraphs_html": [
+            "Inventée par Fritz Perls dans le courant de pensée humaniste, la Gestalt consiste à reconstruire la vision globale pour interagir en équilibre de soi. Pas d'obligation — pas de « il faut, je dois… » — mais l'incitation : <em>si je veux goûter au plaisir, je peux décider.</em>",
+            "Son principe : le mieux-être passe par l'attention aux éléments de notre vie, de notre comportement, de notre passé, de notre psychisme ou de notre corps. Le Massage Californien s'inscrit dans cette même ligne du mieux-être holistique.",
+            "Le cycle de satisfaction du besoin est abordé pour le mener à son accomplissement, ou l'interrompre en conscience."
+          ],
+          "tarif_html": "<p><strong>Ateliers en préparation.</strong></p><p><strong>Séances individuelles — Écoute Active : 50 €</strong></p>",
+          "cta_text": "Prendre contact →",
+          "cta_link": "#contact"
+        }
+      }
+    ]
+  },
+  "aquarelle": {
+    "eyebrow": "Aquareliste · Ateliers",
+    "title": "Aquarelle",
+    "lead": "La création comme chemin vers soi.",
+    "paragraphs_html": [
+      "Autodidacte, Michel a fréquenté l'Académie de Namur et assuré des cours à l'<strong>École d'Aquarelle Namuroise</strong> durant une vingtaine d'années. Il a participé à plusieurs expositions, dont le prestigieux <strong>Salon de l'Aquarelle de Belgique</strong>.",
+      "Depuis 2015, il anime les ateliers sur <strong>La Valse Lente</strong>, une péniche sur les quais de Namur (Confluent), les <strong>mardis matins</strong>. Le calendrier est fixé en accord avec les participants."
+    ],
+    "details": [
+      "Chaque personne vient avec son propre sujet",
+      "Aucun prérequis, si ce n'est l'envie de créer",
+      "Places limitées à 8 personnes",
+      "6 à 8 ateliers par trimestre"
+    ],
+    "tarif": "22 € / atelier",
+    "peniche_url": "https://lavalselente.com/",
+    "peniche_label": "Visiter le site de La Valse Lente",
+    "cta_inscription": "S'inscrire à un atelier",
+    "image_principale": "aquarelle.jpg",
+    "oeuvre_image": "AquaPlage.jpg",
+    "oeuvre_legende": "Aquarelle de Michel Vrins"
+  },
+  "sejour": {
+    "eyebrow": "Séjour bien-être",
+    "title": "Un cadre verdoyant pour se ressourcer",
+    "intro": "Prolongez l'expérience dans un environnement naturel et apaisant.",
+    "photos": [
+      { "src": "maisonGodine.jpg", "alt": "Maison à Godinne — cadre verdoyant" },
+      { "src": "verandaGodinne.jpg", "alt": "Véranda avec vue sur le jardin — petit-déjeuner" },
+      { "src": "chambre.jpg", "alt": "Chambre avec vue sur le jardin" }
+    ],
+    "title_card": "Chambre & Petit-déjeuner — Godinne",
+    "paragraphs": [
+      "Dans un espace verdoyant le long de la Meuse, un lieu paisible vous attend pour vous relaxer et profiter de cette agréable région.",
+      "La chambre dispose d'une agréable vue (lit une personne). Salle de bains commune (douche), jardin et terrasse. Le petit-déjeuner, face à la nature, vous est servi en convivialité."
+    ],
+    "tarif": "50 € / nuit",
+    "environs": "Dans les environs : les Jardins d'Annevoie, le Château de Bioul, Maredsous et La Molignée, Namur et son Confluent…",
+    "details": [
+      "Prestations à la carte : visites, petits restos, massages…",
+      "Accessible en train"
+    ],
+    "cta": "Me contacter pour en savoir plus"
+  },
+  "temoignages": {
+    "eyebrow": "Témoignages",
+    "title": "Ils ont vécu l'expérience",
+    "featured": {
+      "quote": "Je tiens à remercier les deux organisateurs pour ce moment tellement chaleureux. Ce fut un grand moment d'abandon en recevoir, de douceur et d'amour à donner. Contrairement à ce que mon esprit cartésien m'aurait dit, je n'ai ressenti aucun stress, aucune gêne, aucune hésitation. Quant à l'organisation, tout se met dans la simplicité, l'authenticité. Le vivre ensemble aide au contact naturel et bienveillant ; le nombre de participants est confortable. L'accompagnement fait sens ; l'intention, le cadre, les consignes sont claires, le but aussi.",
+      "author": "Laurence M."
+    },
+    "items": [
+      {
+        "quote": "Cette formation m'a permis d'expérimenter, de conscientiser et d'affiner la confiance et l'estime de moi afin d'adapter le rythme de mes gestes… J'ai appris à prendre soin. Je reste dans mon centre parfaitement alignée, concentrée à tout ce qui se passe ici et maintenant afin d'apprendre à danser autour du massé avec plaisir et hors de tout jugement.",
+        "author": "Anne-Sophie T."
+      },
+      {
+        "quote": "Ce massage est simple et exigeant. Il est structuré, équilibré, harmonisant, unifiant. Pour moi, ce \"Toucher du Cœur\" est un acte de reconnaissance hors de tout jugement, de soi, de l'autre et du vivant. Il est une danse d'Amour Inconditionnel dans la joie de l'instant présent.",
+        "author": "Myriam W."
+      },
+      {
+        "quote": "C'était la rencontre de personnes bienveillantes, chaleureuses, humaines… Quelle chance ! La formation est très complète : l'introduction des journées est nécessaire pour pouvoir se plonger dans cette bulle du corps à l'autre et à soi. La pratique en elle-même est juste très bien.",
+        "author": "Bertrand D."
+      },
+      {
+        "quote": "Merci pour la belle et enrichissante formation. Un duo plein de complicités : vous êtes de merveilleuses personnes qui veulent transmettre leur expérience du Massage Californien dans son ressenti harmonieux. Je ne pensais pas apprendre autant ce week-end.",
+        "author": "Florence T."
+      },
+      {
+        "quote": "J'ai découvert le Massage Californien avec beaucoup de respect, d'authenticité, d'émotions et de générosité. Je suis tellement heureuse d'avoir choisi ce moment de vie : j'ai envie de pratiquer et d'en faire profiter des gens autour de moi.",
+        "author": "Françoise G."
+      }
+    ]
+  },
+  "rdv": {
+    "eyebrow": "Agenda",
+    "title": "Prendre rendez-vous",
+    "intro": "Réservez directement en ligne selon vos disponibilités. Simple, rapide, sans attente.",
+    "calendly_url": "https://calendly.com/hugo-hismans",
+    "cta": "Voir les créneaux disponibles",
+    "note_html": "Vous serez redirigé vers Calendly, mon agenda en ligne.<br />Vous pouvez aussi me contacter directement via le formulaire ci-dessous."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Écrivez-moi",
+    "intro": "Pour toute question, demande d'information ou inscription à un atelier, n'hésitez pas à me contacter. Je vous répondrai dans les meilleurs délais.",
+    "email": "vrins52@hotmail.com",
+    "phone_display": "0497/333 914",
+    "phone_link": "+32497333914",
+    "addresses": [
+      "Allée Croix d'Al Faux 6\n5530 Godinne",
+      "Rue Jean Haust 5/102\n1348 Louvain-la-Neuve"
+    ],
+    "formspree_id": "YOUR_FORMSPREE_ID"
+  },
+  "footer": {
+    "name": "Michel Vrins",
+    "tagline": "Massage · Accompagnement · Créativité",
+    "copyright": "© 2026 Michel Vrins · Tous droits réservés"
+  }
+}

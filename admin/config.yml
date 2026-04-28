@@ -1,0 +1,217 @@
+backend:
+  name: github
+  repo: hugohismans/chemindetre
+  branch: main
+  # OAuth proxy — à remplacer par l'URL du Cloudflare Worker une fois déployé
+  base_url: https://sveltia-auth.PLACEHOLDER.workers.dev
+  auth_endpoint: oauth/authorize
+
+# Où Sveltia stocke les images uploadées par Michel
+media_folder: images
+# Comment ces images sont référencées depuis index.html
+public_folder: images
+
+# Pas de PR — commit direct sur la branche (Michel n'a pas à merger)
+publish_mode: simple
+
+site_url: https://hugohismans.github.io/chemindetre/
+display_url: https://hugohismans.github.io/chemindetre/
+logo_url: https://hugohismans.github.io/chemindetre/logo.png
+
+locale: fr
+
+collections:
+  - name: site
+    label: "Site"
+    files:
+      - name: content
+        label: "Contenu du site"
+        file: content.json
+        format: json
+        fields:
+
+          - name: formation_bulle
+            label: "Bulle « Prochaine formation » (en bas de page)"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: active, label: "Afficher la bulle ?", widget: boolean, default: true }
+              - { name: texte,  label: "Texte affiché", widget: string }
+              - { name: lien,   label: "Lien (URL)", widget: string }
+
+          - name: hero
+            label: "Page d'accueil — Bandeau principal"
+            widget: object
+            fields:
+              - { name: eyebrow,        label: "Petite ligne au-dessus du titre", widget: string }
+              - { name: title_html,     label: "Titre principal (HTML autorisé : <br />, <em>)", widget: string }
+              - { name: subtitle,       label: "Sous-titre", widget: text }
+              - { name: cta_primary,    label: "Bouton principal (texte)", widget: string }
+              - { name: cta_secondary,  label: "Bouton secondaire (texte)", widget: string }
+
+          - name: about
+            label: "À propos"
+            widget: object
+            fields:
+              - { name: photo,      label: "Photo de Michel", widget: image }
+              - { name: eyebrow,    label: "Petite ligne", widget: string }
+              - { name: title,      label: "Titre", widget: string }
+              - { name: lead,       label: "Phrase d'accroche", widget: string }
+              - name: paragraphs
+                label: "Paragraphes"
+                widget: list
+                field: { name: paragraph, label: "Paragraphe", widget: text }
+              - { name: merci,      label: "Phrase de remerciement (en bas)", widget: text }
+
+          - name: services
+            label: "Prestations"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Petite ligne", widget: string }
+              - { name: title,   label: "Titre de section", widget: string }
+              - { name: intro,   label: "Phrase d'introduction", widget: string }
+              - name: items
+                label: "Liste des prestations"
+                widget: list
+                fields:
+                  - { name: id,          label: "Identifiant interne (sans espace, ex: massage)", widget: string, hint: "Ne pas modifier — utilisé en interne" }
+                  - { name: image,       label: "Vignette", widget: image }
+                  - { name: title,       label: "Titre", widget: string }
+                  - { name: description, label: "Description courte (sur la carte)", widget: text }
+                  - { name: tarif,       label: "Tarif (laisser vide pour masquer)", widget: string, required: false }
+                  - name: modal
+                    label: "Fenêtre détaillée (s'ouvre au clic sur la carte)"
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { name: vignette, label: "Image en haut", widget: image, required: false }
+                      - { name: title,    label: "Titre", widget: string }
+                      - { name: subtitle, label: "Sous-titre (optionnel)", widget: string, required: false }
+                      - name: paragraphs_html
+                        label: "Paragraphes principaux (HTML autorisé)"
+                        widget: list
+                        field: { name: paragraph, label: "Paragraphe", widget: text }
+                      - name: images_extra
+                        label: "Images supplémentaires"
+                        widget: list
+                        required: false
+                        field: { name: image, label: "Image", widget: image }
+                      - name: paragraphs_after_html
+                        label: "Paragraphes après les images"
+                        widget: list
+                        required: false
+                        field: { name: paragraph, label: "Paragraphe", widget: text }
+                      - { name: ateliers_intro, label: "Texte d'introduction aux ateliers", widget: string, required: false }
+                      - name: ateliers_liste
+                        label: "Liste des ateliers"
+                        widget: list
+                        required: false
+                        field: { name: item, label: "Élément", widget: string }
+                      - { name: tarif_html, label: "Bloc tarif (HTML autorisé)", widget: text, required: false }
+                      - { name: pdf_url,    label: "URL du PDF à télécharger", widget: string, required: false }
+                      - { name: pdf_label,  label: "Libellé du bouton PDF", widget: string, required: false }
+                      - { name: cta_text,   label: "Texte du bouton final", widget: string, required: false }
+                      - { name: cta_link,   label: "Lien du bouton final", widget: string, required: false }
+
+          - name: aquarelle
+            label: "Aquarelle"
+            widget: object
+            fields:
+              - { name: eyebrow,         label: "Petite ligne", widget: string }
+              - { name: title,           label: "Titre", widget: string }
+              - { name: lead,            label: "Phrase d'accroche", widget: string }
+              - name: paragraphs_html
+                label: "Paragraphes (HTML autorisé : <strong>, <em>)"
+                widget: list
+                field: { name: paragraph, label: "Paragraphe", widget: text }
+              - name: details
+                label: "Liste des détails (puces)"
+                widget: list
+                field: { name: item, label: "Élément", widget: string }
+              - { name: tarif,           label: "Tarif", widget: string }
+              - { name: peniche_url,     label: "Lien vers le site de la péniche", widget: string }
+              - { name: peniche_label,   label: "Texte du bouton péniche", widget: string }
+              - { name: cta_inscription, label: "Texte du bouton « S'inscrire »", widget: string }
+              - { name: image_principale, label: "Image principale", widget: image }
+              - { name: oeuvre_image,    label: "Image de l'œuvre (en bas)", widget: image }
+              - { name: oeuvre_legende,  label: "Légende de l'œuvre", widget: string }
+
+          - name: sejour
+            label: "Séjour bien-être (Godinne)"
+            widget: object
+            fields:
+              - { name: eyebrow,    label: "Petite ligne", widget: string }
+              - { name: title,      label: "Titre", widget: string }
+              - { name: intro,      label: "Phrase d'introduction", widget: string }
+              - name: photos
+                label: "Photos du séjour"
+                widget: list
+                fields:
+                  - { name: src, label: "Photo", widget: image }
+                  - { name: alt, label: "Description (pour accessibilité)", widget: string }
+              - { name: title_card, label: "Titre du bloc", widget: string }
+              - name: paragraphs
+                label: "Paragraphes de description"
+                widget: list
+                field: { name: paragraph, label: "Paragraphe", widget: text }
+              - { name: tarif,    label: "Tarif", widget: string }
+              - { name: environs, label: "Phrase sur les environs", widget: text }
+              - name: details
+                label: "Liste des détails (puces)"
+                widget: list
+                field: { name: item, label: "Élément", widget: string }
+              - { name: cta,      label: "Texte du bouton final", widget: string }
+
+          - name: temoignages
+            label: "Témoignages"
+            widget: object
+            fields:
+              - { name: eyebrow, label: "Petite ligne", widget: string }
+              - { name: title,   label: "Titre", widget: string }
+              - name: featured
+                label: "Témoignage mis en avant"
+                widget: object
+                fields:
+                  - { name: quote,  label: "Citation", widget: text }
+                  - { name: author, label: "Auteur", widget: string }
+              - name: items
+                label: "Autres témoignages (cartes)"
+                widget: list
+                fields:
+                  - { name: quote,  label: "Citation", widget: text }
+                  - { name: author, label: "Auteur", widget: string }
+
+          - name: rdv
+            label: "Prendre rendez-vous"
+            widget: object
+            fields:
+              - { name: eyebrow,      label: "Petite ligne", widget: string }
+              - { name: title,        label: "Titre", widget: string }
+              - { name: intro,        label: "Phrase d'introduction", widget: string }
+              - { name: calendly_url, label: "URL Calendly", widget: string }
+              - { name: cta,          label: "Texte du bouton", widget: string }
+              - { name: note_html,    label: "Note sous le bouton (HTML autorisé : <br />)", widget: text }
+
+          - name: contact
+            label: "Contact"
+            widget: object
+            fields:
+              - { name: eyebrow,       label: "Petite ligne", widget: string }
+              - { name: title,         label: "Titre", widget: string }
+              - { name: intro,         label: "Texte d'introduction", widget: text }
+              - { name: email,         label: "Adresse email", widget: string }
+              - { name: phone_display, label: "Téléphone (affiché)", widget: string }
+              - { name: phone_link,    label: "Téléphone (format international, ex: +32497...)", widget: string }
+              - name: addresses
+                label: "Adresses"
+                widget: list
+                field: { name: address, label: "Adresse (sauter une ligne entre rue et code postal)", widget: text }
+              - { name: formspree_id, label: "Identifiant Formspree", widget: string }
+
+          - name: footer
+            label: "Pied de page"
+            widget: object
+            fields:
+              - { name: name,      label: "Nom", widget: string }
+              - { name: tagline,   label: "Tagline", widget: string }
+              - { name: copyright, label: "Mention copyright", widget: string }
