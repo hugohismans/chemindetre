@@ -47,7 +47,10 @@
             "Il régénère la mémoire corporelle et aide les personnes ayant vécu un traumatisme et/ou qui suivent une démarche psychothérapeutique. À l'issue de la séance, le patient se sent potentiellement régénéré.",
             "<strong>Ce massage est basé sur une réception inconditionnelle où tout se joue dans le moment présent.</strong>"
           ],
-          "images_extra": ["massageCalifornien.jpg", "futonMassage.jpg"],
+          "images_extra": [
+            "massageCalifornien.jpg",
+            "futonMassage.jpg"
+          ],
           "paragraphs_after_html": [
             "Formé par Solange Brasseur, je pratique le Massage Californien depuis plus de trente ans.",
             "Depuis 2012, je donne des formations dans la ligne originelle de Margaret Elke, conceptrice de ce massage. Dans un cadre bienveillant, ces ateliers sont composés d'applications au toucher respectueux, la mise en place, la démonstration des gestes sur modèle et le suivi de pratique. Le participant reçoit un syllabus illustré et la certification."
@@ -154,9 +157,18 @@
     "title": "Un cadre verdoyant pour se ressourcer",
     "intro": "Prolongez l'expérience dans un environnement naturel et apaisant.",
     "photos": [
-      { "src": "maisonGodine.jpg", "alt": "Maison à Godinne — cadre verdoyant" },
-      { "src": "verandaGodinne.jpg", "alt": "Véranda avec vue sur le jardin — petit-déjeuner" },
-      { "src": "chambre.jpg", "alt": "Chambre avec vue sur le jardin" }
+      {
+        "src": "maisonGodine.jpg",
+        "alt": "Maison à Godinne — cadre verdoyant"
+      },
+      {
+        "src": "verandaGodinne.jpg",
+        "alt": "Véranda avec vue sur le jardin — petit-déjeuner"
+      },
+      {
+        "src": "chambre.jpg",
+        "alt": "Chambre avec vue sur le jardin"
+      }
     ],
     "title_card": "Chambre & Petit-déjeuner — Godinne",
     "paragraphs": [
@@ -181,7 +193,7 @@
     "items": [
       {
         "quote": "Cette formation m'a permis d'expérimenter, de conscientiser et d'affiner la confiance et l'estime de moi afin d'adapter le rythme de mes gestes… J'ai appris à prendre soin. Je reste dans mon centre parfaitement alignée, concentrée à tout ce qui se passe ici et maintenant afin d'apprendre à danser autour du massé avec plaisir et hors de tout jugement.",
-        "author": "Anne-Sophie T."
+        "author": "Anne-Sophie Tutu."
       },
       {
         "quote": "Ce massage est simple et exigeant. Il est structuré, équilibré, harmonisant, unifiant. Pour moi, ce \"Toucher du Cœur\" est un acte de reconnaissance hors de tout jugement, de soi, de l'autre et du vivant. Il est une danse d'Amour Inconditionnel dans la joie de l'instant présent.",
