@@ -3,7 +3,7 @@ backend:
   repo: hugohismans/chemindetre
   branch: main
   # OAuth proxy — à remplacer par l'URL du Cloudflare Worker une fois déployé
-  base_url: https://sveltia-auth.hugo-hismans.workers.dev
+  base_url: https://sveltia-cms-auth.hugo-hismans.workers.dev
   auth_endpoint: oauth/authorize
 
 # Où Sveltia stocke les images uploadées par Michel
